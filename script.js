@@ -20,6 +20,7 @@ function DatosClima(ciudad){
 function mostrarDatos(response){
     const divDatos = document.getElementById('datosClima')
     divDatos.innerHTML=""
+    divDatos.style.display = "block"
     
     const ciudadNombre = response.name
     const paisNombre = response.sys.country
