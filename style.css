@@ -65,7 +65,8 @@ body {
 .contenedor {
   border: none;
   border-radius: 10px;
-  max-width: 90%;
+  max-width: 100%;
+  width: 90%;
   margin: 0 auto;
   padding: 20px;
   margin-top: 40px;
